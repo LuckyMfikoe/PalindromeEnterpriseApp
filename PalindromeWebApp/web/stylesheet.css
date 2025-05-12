@@ -1,0 +1,61 @@
+ html, body {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+            }
+            
+            body{
+                
+                background: linear-gradient(#fa9b0c,#e62a15);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+            
+            h1{
+                
+                color: black;
+                font:sans-serif; 
+            }
+            
+            footer{
+                font:bold sans-serif;
+                text-align: center;
+                background-color: #666666;
+                color: black;
+                padding: 5px;
+                
+                font-size: 20px;
+                width: fit-content
+            }
+            
+            button{
+                border-style: outset;
+                border-width: 5px;
+                border-color: gold;
+                background-color:#fa9b0c; 
+            }
+            
+            button:hover {
+               cursor: pointer; 
+            }
+            
+            section.sec1 {
+                flex: 1;
+                }
+            
+            form{
+                border-style: outset;
+                border-width: 6px;
+                border-left-color: gold;
+                border-top-color: gold;
+                border-right-color: black;
+                border-bottom-color: black; 
+                padding:30px;
+                
+                width: 300px;
+                margin: auto;
+                
+            }
